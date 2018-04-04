@@ -58,3 +58,4 @@ const calculateStr = (str, isNegativeFirst) => {
         return (n1 + n2).toFixed(20);
     }
 };
+console.log(exports.calculate("1000$2.5$5+5-5+6$6"), 81);

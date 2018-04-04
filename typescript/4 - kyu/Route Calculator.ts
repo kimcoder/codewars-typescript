@@ -10,7 +10,7 @@ export const calculate = (sum: string) => {
 
     let pattern: RegExp;
     let nonPattern: RegExp;
-
+    
     if (sum.search(/(\d+\.\d+|\d+)\$(\d+\.\d+|\d+)/) > -1) {
         pattern = /(\d+\.\d+|\d+)\$(\d+\.\d+|\d+)/;
         nonPattern = /^((\d+\.\d+|\d+)\$(\d+\.\d+|\d+))/;
